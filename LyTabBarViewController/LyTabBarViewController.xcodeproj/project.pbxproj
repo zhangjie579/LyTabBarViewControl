@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F3BD1A51E8751DE009CBC40 /* LyContentTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3BD1A41E8751DE009CBC40 /* LyContentTableView.swift */; };
+		2F3BD1A91E87631B009CBC40 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3BD1A81E87631B009CBC40 /* OneViewController.swift */; };
+		2F3BD1AB1E876323009CBC40 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3BD1AA1E876323009CBC40 /* TwoViewController.swift */; };
+		2F3BD1AF1E876339009CBC40 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3BD1AE1E876339009CBC40 /* FourViewController.swift */; };
+		2F3BD1B11E87642C009CBC40 /* ThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3BD1B01E87642C009CBC40 /* ThreeVC.swift */; };
+		2F3BD1B31E877C47009CBC40 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3BD1B21E877C47009CBC40 /* UIColor-Extension.swift */; };
+		2F3BD1B51E8781A0009CBC40 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3BD1B41E8781A0009CBC40 /* FiveViewController.swift */; };
+		2F9C13451E83680C0093B45C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13441E83680C0093B45C /* AppDelegate.swift */; };
+		2F9C13471E83680C0093B45C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13461E83680C0093B45C /* ViewController.swift */; };
+		2F9C134A1E83680C0093B45C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C13481E83680C0093B45C /* Main.storyboard */; };
+		2F9C134C1E83680C0093B45C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C134B1E83680C0093B45C /* Assets.xcassets */; };
+		2F9C134F1E83680C0093B45C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C134D1E83680C0093B45C /* LaunchScreen.storyboard */; };
+		2F9C135A1E83680C0093B45C /* LyTabBarViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13591E83680C0093B45C /* LyTabBarViewControllerTests.swift */; };
+		2F9C13651E83680C0093B45C /* LyTabBarViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13641E83680C0093B45C /* LyTabBarViewControllerUITests.swift */; };
+		2F9C137D1E83BB370093B45C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C137C1E83BB370093B45C /* BaseViewController.swift */; };
+		2F9C13871E83BC580093B45C /* LyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13861E83BC580093B45C /* LyNavigationController.swift */; };
+		2F9C138D1E83C71B0093B45C /* LyBadgLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13891E83C71B0093B45C /* LyBadgLabel.swift */; };
+		2F9C138E1E83C71B0093B45C /* LyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C138A1E83C71B0093B45C /* LyTabBar.swift */; };
+		2F9C138F1E83C71B0093B45C /* LyTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C138B1E83C71B0093B45C /* LyTabBarButton.swift */; };
+		2F9C13901E83C71B0093B45C /* LyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C138C1E83C71B0093B45C /* LyTabBarController.swift */; };
+		2F9C13AB1E83CFC20093B45C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13AA1E83CFC20093B45C /* FirstViewController.swift */; };
+		2F9C13AD1E83CFCF0093B45C /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13AC1E83CFCF0093B45C /* MyViewController.swift */; };
+		2F9C13AF1E83CFE40093B45C /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13AE1E83CFE40093B45C /* ThreeViewController.swift */; };
+		2F9C13B11E83CFF90093B45C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13B01E83CFF90093B45C /* MainViewController.swift */; };
+		2F9C13B31E83D0340093B45C /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13B21E83D0340093B45C /* UIBarButtonItem-Extension.swift */; };
+		2F9C13B51E83D2EF0093B45C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13B41E83D2EF0093B45C /* Common.swift */; };
+		2F9C13B71E83D4B80093B45C /* LyMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13B61E83D4B80093B45C /* LyMenuItem.swift */; };
+		2FD9DC661E851E6F001675F9 /* LyScrollMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9DC651E851E6F001675F9 /* LyScrollMenuItem.swift */; };
+		C68B72864CCD129B1C391D3E /* Pods_LyTabBarViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F6693A26CFECB3C887831 /* Pods_LyTabBarViewController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F9C13561E83680C0093B45C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F9C13391E83680C0093B45C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F9C13401E83680C0093B45C;
+			remoteInfo = LyTabBarViewController;
+		};
+		2F9C13611E83680C0093B45C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F9C13391E83680C0093B45C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F9C13401E83680C0093B45C;
+			remoteInfo = LyTabBarViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB12E89CA5197A591F94A07 /* Pods-LyTabBarViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyTabBarViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LyTabBarViewController/Pods-LyTabBarViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3BD1A41E8751DE009CBC40 /* LyContentTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyContentTableView.swift; sourceTree = "<group>"; };
+		2F3BD1A81E87631B009CBC40 /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		2F3BD1AA1E876323009CBC40 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		2F3BD1AE1E876339009CBC40 /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		2F3BD1B01E87642C009CBC40 /* ThreeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeVC.swift; sourceTree = "<group>"; };
+		2F3BD1B21E877C47009CBC40 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		2F3BD1B41E8781A0009CBC40 /* FiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
+		2F9C13411E83680C0093B45C /* LyTabBarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyTabBarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9C13441E83680C0093B45C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F9C13461E83680C0093B45C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F9C13491E83680C0093B45C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F9C134B1E83680C0093B45C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F9C134E1E83680C0093B45C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F9C13501E83680C0093B45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9C13551E83680C0093B45C /* LyTabBarViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyTabBarViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9C13591E83680C0093B45C /* LyTabBarViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyTabBarViewControllerTests.swift; sourceTree = "<group>"; };
+		2F9C135B1E83680C0093B45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9C13601E83680C0093B45C /* LyTabBarViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyTabBarViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9C13641E83680C0093B45C /* LyTabBarViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyTabBarViewControllerUITests.swift; sourceTree = "<group>"; };
+		2F9C13661E83680C0093B45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9C137C1E83BB370093B45C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2F9C13861E83BC580093B45C /* LyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyNavigationController.swift; sourceTree = "<group>"; };
+		2F9C13891E83C71B0093B45C /* LyBadgLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyBadgLabel.swift; sourceTree = "<group>"; };
+		2F9C138A1E83C71B0093B45C /* LyTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyTabBar.swift; sourceTree = "<group>"; };
+		2F9C138B1E83C71B0093B45C /* LyTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyTabBarButton.swift; sourceTree = "<group>"; };
+		2F9C138C1E83C71B0093B45C /* LyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyTabBarController.swift; sourceTree = "<group>"; };
+		2F9C13AA1E83CFC20093B45C /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2F9C13AC1E83CFCF0093B45C /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		2F9C13AE1E83CFE40093B45C /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		2F9C13B01E83CFF90093B45C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2F9C13B21E83D0340093B45C /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		2F9C13B41E83D2EF0093B45C /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		2F9C13B61E83D4B80093B45C /* LyMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyMenuItem.swift; sourceTree = "<group>"; };
+		2FD9DC651E851E6F001675F9 /* LyScrollMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyScrollMenuItem.swift; sourceTree = "<group>"; };
+		E71F6693A26CFECB3C887831 /* Pods_LyTabBarViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyTabBarViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD67CBCAEB1A519453DB77B /* Pods-LyTabBarViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyTabBarViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-LyTabBarViewController/Pods-LyTabBarViewController.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F9C133E1E83680C0093B45C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68B72864CCD129B1C391D3E /* Pods_LyTabBarViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9C13521E83680C0093B45C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9C135D1E83680C0093B45C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2851072C732198CBC89EA738 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DB12E89CA5197A591F94A07 /* Pods-LyTabBarViewController.debug.xcconfig */,
+				FAD67CBCAEB1A519453DB77B /* Pods-LyTabBarViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F9C13381E83680C0093B45C = {
+			isa = PBXGroup;
+			children = (
+				2F9C13431E83680C0093B45C /* LyTabBarViewController */,
+				2F9C13581E83680C0093B45C /* LyTabBarViewControllerTests */,
+				2F9C13631E83680C0093B45C /* LyTabBarViewControllerUITests */,
+				2F9C13421E83680C0093B45C /* Products */,
+				2851072C732198CBC89EA738 /* Pods */,
+				A3ACC8C2299AE39E2B7CE3FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F9C13421E83680C0093B45C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13411E83680C0093B45C /* LyTabBarViewController.app */,
+				2F9C13551E83680C0093B45C /* LyTabBarViewControllerTests.xctest */,
+				2F9C13601E83680C0093B45C /* LyTabBarViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F9C13431E83680C0093B45C /* LyTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13A91E83CFA10093B45C /* Tool */,
+				2F9C13881E83C71B0093B45C /* tabbar */,
+				2F9C13911E83CB2E0093B45C /* 关注 */,
+				2F9C13971E83CB2E0093B45C /* 首页 */,
+				2F9C139D1E83CB2E0093B45C /* 我的 */,
+				2F9C13A31E83CB2E0093B45C /* 直播 */,
+				2F9C13441E83680C0093B45C /* AppDelegate.swift */,
+				2F9C13461E83680C0093B45C /* ViewController.swift */,
+				2F9C13481E83680C0093B45C /* Main.storyboard */,
+				2F9C134B1E83680C0093B45C /* Assets.xcassets */,
+				2F9C134D1E83680C0093B45C /* LaunchScreen.storyboard */,
+				2F9C13501E83680C0093B45C /* Info.plist */,
+				2F9C137C1E83BB370093B45C /* BaseViewController.swift */,
+				2F9C13861E83BC580093B45C /* LyNavigationController.swift */,
+			);
+			path = LyTabBarViewController;
+			sourceTree = "<group>";
+		};
+		2F9C13581E83680C0093B45C /* LyTabBarViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13591E83680C0093B45C /* LyTabBarViewControllerTests.swift */,
+				2F9C135B1E83680C0093B45C /* Info.plist */,
+			);
+			path = LyTabBarViewControllerTests;
+			sourceTree = "<group>";
+		};
+		2F9C13631E83680C0093B45C /* LyTabBarViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13641E83680C0093B45C /* LyTabBarViewControllerUITests.swift */,
+				2F9C13661E83680C0093B45C /* Info.plist */,
+			);
+			path = LyTabBarViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		2F9C13881E83C71B0093B45C /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13891E83C71B0093B45C /* LyBadgLabel.swift */,
+				2F9C138A1E83C71B0093B45C /* LyTabBar.swift */,
+				2F9C138B1E83C71B0093B45C /* LyTabBarButton.swift */,
+				2F9C138C1E83C71B0093B45C /* LyTabBarController.swift */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		2F9C13911E83CB2E0093B45C /* 关注 */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13921E83CB2E0093B45C /* Controller */,
+				2F9C13931E83CB2E0093B45C /* DataSource */,
+				2F9C13941E83CB2E0093B45C /* Model */,
+				2F9C13951E83CB2E0093B45C /* View */,
+				2F9C13961E83CB2E0093B45C /* ViewModel */,
+			);
+			path = "关注";
+			sourceTree = "<group>";
+		};
+		2F9C13921E83CB2E0093B45C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13AE1E83CFE40093B45C /* ThreeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F9C13931E83CB2E0093B45C /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2F9C13941E83CB2E0093B45C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F9C13951E83CB2E0093B45C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F9C13961E83CB2E0093B45C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2F9C13971E83CB2E0093B45C /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13981E83CB2E0093B45C /* Controller */,
+				2F9C13991E83CB2E0093B45C /* DataSource */,
+				2F9C139A1E83CB2E0093B45C /* Model */,
+				2F9C139B1E83CB2E0093B45C /* View */,
+				2F9C139C1E83CB2E0093B45C /* ViewModel */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		2F9C13981E83CB2E0093B45C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13AA1E83CFC20093B45C /* FirstViewController.swift */,
+				2F3BD1A81E87631B009CBC40 /* OneViewController.swift */,
+				2F3BD1AA1E876323009CBC40 /* TwoViewController.swift */,
+				2F3BD1B01E87642C009CBC40 /* ThreeVC.swift */,
+				2F3BD1AE1E876339009CBC40 /* FourViewController.swift */,
+				2F3BD1B41E8781A0009CBC40 /* FiveViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F9C13991E83CB2E0093B45C /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2F9C139A1E83CB2E0093B45C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F9C139B1E83CB2E0093B45C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13B61E83D4B80093B45C /* LyMenuItem.swift */,
+				2FD9DC651E851E6F001675F9 /* LyScrollMenuItem.swift */,
+				2F3BD1A41E8751DE009CBC40 /* LyContentTableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F9C139C1E83CB2E0093B45C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2F9C139D1E83CB2E0093B45C /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C139E1E83CB2E0093B45C /* Controller */,
+				2F9C139F1E83CB2E0093B45C /* DataSource */,
+				2F9C13A01E83CB2E0093B45C /* Model */,
+				2F9C13A11E83CB2E0093B45C /* View */,
+				2F9C13A21E83CB2E0093B45C /* ViewModel */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		2F9C139E1E83CB2E0093B45C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13AC1E83CFCF0093B45C /* MyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F9C139F1E83CB2E0093B45C /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2F9C13A01E83CB2E0093B45C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F9C13A11E83CB2E0093B45C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F9C13A21E83CB2E0093B45C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2F9C13A31E83CB2E0093B45C /* 直播 */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13A41E83CB2E0093B45C /* Controller */,
+				2F9C13A51E83CB2E0093B45C /* DataSource */,
+				2F9C13A61E83CB2E0093B45C /* Model */,
+				2F9C13A71E83CB2E0093B45C /* View */,
+				2F9C13A81E83CB2E0093B45C /* ViewModel */,
+			);
+			path = "直播";
+			sourceTree = "<group>";
+		};
+		2F9C13A41E83CB2E0093B45C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13B01E83CFF90093B45C /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F9C13A51E83CB2E0093B45C /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2F9C13A61E83CB2E0093B45C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F9C13A71E83CB2E0093B45C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F9C13A81E83CB2E0093B45C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2F9C13A91E83CFA10093B45C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C13B41E83D2EF0093B45C /* Common.swift */,
+				2F9C13B21E83D0340093B45C /* UIBarButtonItem-Extension.swift */,
+				2F3BD1B21E877C47009CBC40 /* UIColor-Extension.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		A3ACC8C2299AE39E2B7CE3FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71F6693A26CFECB3C887831 /* Pods_LyTabBarViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F9C13401E83680C0093B45C /* LyTabBarViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9C13691E83680C0093B45C /* Build configuration list for PBXNativeTarget "LyTabBarViewController" */;
+			buildPhases = (
+				99095E257048BF5B421CCDFF /* 📦 Check Pods Manifest.lock */,
+				2F9C133D1E83680C0093B45C /* Sources */,
+				2F9C133E1E83680C0093B45C /* Frameworks */,
+				2F9C133F1E83680C0093B45C /* Resources */,
+				16FEAFB5906F8FC30DDE7475 /* 📦 Embed Pods Frameworks */,
+				FC2474B1E521540DA23E8423 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyTabBarViewController;
+			productName = LyTabBarViewController;
+			productReference = 2F9C13411E83680C0093B45C /* LyTabBarViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F9C13541E83680C0093B45C /* LyTabBarViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9C136C1E83680C0093B45C /* Build configuration list for PBXNativeTarget "LyTabBarViewControllerTests" */;
+			buildPhases = (
+				2F9C13511E83680C0093B45C /* Sources */,
+				2F9C13521E83680C0093B45C /* Frameworks */,
+				2F9C13531E83680C0093B45C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F9C13571E83680C0093B45C /* PBXTargetDependency */,
+			);
+			name = LyTabBarViewControllerTests;
+			productName = LyTabBarViewControllerTests;
+			productReference = 2F9C13551E83680C0093B45C /* LyTabBarViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F9C135F1E83680C0093B45C /* LyTabBarViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9C136F1E83680C0093B45C /* Build configuration list for PBXNativeTarget "LyTabBarViewControllerUITests" */;
+			buildPhases = (
+				2F9C135C1E83680C0093B45C /* Sources */,
+				2F9C135D1E83680C0093B45C /* Frameworks */,
+				2F9C135E1E83680C0093B45C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F9C13621E83680C0093B45C /* PBXTargetDependency */,
+			);
+			name = LyTabBarViewControllerUITests;
+			productName = LyTabBarViewControllerUITests;
+			productReference = 2F9C13601E83680C0093B45C /* LyTabBarViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F9C13391E83680C0093B45C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "张杰";
+				TargetAttributes = {
+					2F9C13401E83680C0093B45C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					2F9C13541E83680C0093B45C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F9C13401E83680C0093B45C;
+					};
+					2F9C135F1E83680C0093B45C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F9C13401E83680C0093B45C;
+					};
+				};
+			};
+			buildConfigurationList = 2F9C133C1E83680C0093B45C /* Build configuration list for PBXProject "LyTabBarViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F9C13381E83680C0093B45C;
+			productRefGroup = 2F9C13421E83680C0093B45C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F9C13401E83680C0093B45C /* LyTabBarViewController */,
+				2F9C13541E83680C0093B45C /* LyTabBarViewControllerTests */,
+				2F9C135F1E83680C0093B45C /* LyTabBarViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F9C133F1E83680C0093B45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9C134F1E83680C0093B45C /* LaunchScreen.storyboard in Resources */,
+				2F9C134C1E83680C0093B45C /* Assets.xcassets in Resources */,
+				2F9C134A1E83680C0093B45C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9C13531E83680C0093B45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9C135E1E83680C0093B45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16FEAFB5906F8FC30DDE7475 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyTabBarViewController/Pods-LyTabBarViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99095E257048BF5B421CCDFF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC2474B1E521540DA23E8423 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyTabBarViewController/Pods-LyTabBarViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F9C133D1E83680C0093B45C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9C13871E83BC580093B45C /* LyNavigationController.swift in Sources */,
+				2F3BD1B51E8781A0009CBC40 /* FiveViewController.swift in Sources */,
+				2F3BD1B11E87642C009CBC40 /* ThreeVC.swift in Sources */,
+				2F9C13B31E83D0340093B45C /* UIBarButtonItem-Extension.swift in Sources */,
+				2F3BD1AF1E876339009CBC40 /* FourViewController.swift in Sources */,
+				2F9C138F1E83C71B0093B45C /* LyTabBarButton.swift in Sources */,
+				2F3BD1A51E8751DE009CBC40 /* LyContentTableView.swift in Sources */,
+				2F9C13AB1E83CFC20093B45C /* FirstViewController.swift in Sources */,
+				2F9C13B11E83CFF90093B45C /* MainViewController.swift in Sources */,
+				2F9C13AF1E83CFE40093B45C /* ThreeViewController.swift in Sources */,
+				2F9C13B51E83D2EF0093B45C /* Common.swift in Sources */,
+				2F9C13B71E83D4B80093B45C /* LyMenuItem.swift in Sources */,
+				2F3BD1A91E87631B009CBC40 /* OneViewController.swift in Sources */,
+				2F9C13471E83680C0093B45C /* ViewController.swift in Sources */,
+				2FD9DC661E851E6F001675F9 /* LyScrollMenuItem.swift in Sources */,
+				2F9C138E1E83C71B0093B45C /* LyTabBar.swift in Sources */,
+				2F9C13451E83680C0093B45C /* AppDelegate.swift in Sources */,
+				2F9C13901E83C71B0093B45C /* LyTabBarController.swift in Sources */,
+				2F9C138D1E83C71B0093B45C /* LyBadgLabel.swift in Sources */,
+				2F9C13AD1E83CFCF0093B45C /* MyViewController.swift in Sources */,
+				2F9C137D1E83BB370093B45C /* BaseViewController.swift in Sources */,
+				2F3BD1AB1E876323009CBC40 /* TwoViewController.swift in Sources */,
+				2F3BD1B31E877C47009CBC40 /* UIColor-Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9C13511E83680C0093B45C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9C135A1E83680C0093B45C /* LyTabBarViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9C135C1E83680C0093B45C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9C13651E83680C0093B45C /* LyTabBarViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F9C13571E83680C0093B45C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F9C13401E83680C0093B45C /* LyTabBarViewController */;
+			targetProxy = 2F9C13561E83680C0093B45C /* PBXContainerItemProxy */;
+		};
+		2F9C13621E83680C0093B45C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F9C13401E83680C0093B45C /* LyTabBarViewController */;
+			targetProxy = 2F9C13611E83680C0093B45C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F9C13481E83680C0093B45C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9C13491E83680C0093B45C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F9C134D1E83680C0093B45C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9C134E1E83680C0093B45C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F9C13671E83680C0093B45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F9C13681E83680C0093B45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F9C136A1E83680C0093B45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB12E89CA5197A591F94A07 /* Pods-LyTabBarViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LyTabBarViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bona.LyTabBarViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2F9C136B1E83680C0093B45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD67CBCAEB1A519453DB77B /* Pods-LyTabBarViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LyTabBarViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bona.LyTabBarViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2F9C136D1E83680C0093B45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LyTabBarViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bona.LyTabBarViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyTabBarViewController.app/LyTabBarViewController";
+			};
+			name = Debug;
+		};
+		2F9C136E1E83680C0093B45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LyTabBarViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bona.LyTabBarViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyTabBarViewController.app/LyTabBarViewController";
+			};
+			name = Release;
+		};
+		2F9C13701E83680C0093B45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LyTabBarViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bona.LyTabBarViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LyTabBarViewController;
+			};
+			name = Debug;
+		};
+		2F9C13711E83680C0093B45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LyTabBarViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bona.LyTabBarViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LyTabBarViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F9C133C1E83680C0093B45C /* Build configuration list for PBXProject "LyTabBarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9C13671E83680C0093B45C /* Debug */,
+				2F9C13681E83680C0093B45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9C13691E83680C0093B45C /* Build configuration list for PBXNativeTarget "LyTabBarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9C136A1E83680C0093B45C /* Debug */,
+				2F9C136B1E83680C0093B45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9C136C1E83680C0093B45C /* Build configuration list for PBXNativeTarget "LyTabBarViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9C136D1E83680C0093B45C /* Debug */,
+				2F9C136E1E83680C0093B45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9C136F1E83680C0093B45C /* Build configuration list for PBXNativeTarget "LyTabBarViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9C13701E83680C0093B45C /* Debug */,
+				2F9C13711E83680C0093B45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F9C13391E83680C0093B45C /* Project object */;
+}

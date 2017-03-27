@@ -1,0 +1,19 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘9.0’
+use_frameworks!
+#ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'LyTabBarViewController' do
+    
+pod 'SnapKit'
+#网络
+pod 'Alamofire'
+#类似SDWEBImage
+pod 'Kingfisher'
+#json转换
+pod 'SwiftyJSON'
+#提示框
+pod 'NVActivityIndicatorView'
+pod 'ReactiveCocoa'
+end
